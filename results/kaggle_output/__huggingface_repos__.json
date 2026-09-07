@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "timm/vit_tiny_patch16_224.augreg_in21k_ft_in1k", "repoType": "model", "commitHash": "7d3afdd0cf93ad84d986eb2d6bcc5812ebd0b106", "filePaths": ["model.safetensors"]}]}

@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------- datasets
+# The collection is ~24 GB of PNGs; it is not distributable through git.
+# See README.md for how to obtain it and where to put it.
+data/
+new_data/
+*.zip
+
+# --------------------------------------------------------------- artifacts
+# Everything a run regenerates. Only the small figures and tables under
+# results/ are tracked (see the negations at the bottom of this file).
+artifacts/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Mask caches: one 8-bit PNG per frame, ~32k of them.
+**/masks/
+**/sky_masks/
+**/manifest*/manifest.csv
+**/mask_quality.csv
+
+# Media that is large, personal, or not ours to redistribute.
+docs/papers/
+docs/media/
+*.mp4
+*.m4a
+*.mov
+*.wav
+
+# Scratch and superseded work.
+archive/
+_to_delete/
+analysis/
+
+# ------------------------------------------------------------------ python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# -------------------------------------------------------------------- misc
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# results/ itself is tracked: it holds the figures and summary tables the deck
+# and the report are built from. The heavy types inside it are already excluded
+# above (*.pt, *.mp4), and the big per-frame manifests by the pattern above.
+# No negation rules here on purpose — a later "!" would undo those exclusions.

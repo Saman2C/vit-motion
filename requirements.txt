@@ -1,0 +1,16 @@
+numpy>=1.26
+pandas>=2.1
+Pillow>=10.0
+PyYAML>=6.0
+scipy>=1.11
+torch>=2.2
+torchvision>=0.17
+timm>=1.0
+tqdm>=4.66
+matplotlib>=3.8
+opencv-python>=4.9
+
+# SegFormer (nvidia/segformer-b0-finetuned-ade-512-512) for the region masks.
+# Only precompute_sky_masks.py, validate_sky_mask.py and
+# diagnose_ground_classes.py need it; training and evaluation do not.
+transformers>=4.40

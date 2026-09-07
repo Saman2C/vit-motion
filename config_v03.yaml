@@ -1,0 +1,57 @@
+seed: 42
+
+# v0.3 — ONE collection: data/processed, 63 runs / ~31.9k rows over four days, every run with
+# aligned depth and uniform image quality. The older collection was tried in run 1 and
+# dropped: its frames are washed out and colour-cast, the segmenter finds 4-8% ground where
+# half the image is grass, and mixing it in makes image quality a confound in every
+# comparison.
+#
+# The cost, stated rather than engineered away: 82% wet / 18% dry. Wet runs are NOT pruned to
+# force a ratio — run 1 showed the accuracy gain came from data volume — so training uses
+# `--balance day_condition` (hierarchical: conditions equalised first, then days inside each)
+# and every table reports dry and wet apart.
+#
+#   python inspect_dataset.py --config config_v03.yaml --data-root <root> \
+#       --test-group  unseen_day_wet=<the whole 20260812 day> \
+#       --test-group  unseen_runs_dry=<one run per dry day> \
+#       --test-group  unseen_runs_wet=<runs from days that stay in train> \
+#       --val-experiments <one run per day/condition>
+#   python train.py --config config_v03.yaml --balance day_condition
+#
+# No whole DRY day is held out: the only pure dry day holds 75% of all the dry rows.
+
+data:
+  root: "/kaggle/input/vit-motion-data/processed"   # overridden by the notebook
+  manifest_dir: artifacts/manifest_v03
+  rgb_column: rgb_path
+  rpm_to_mps_gain: 4524.0
+  sample_period_sec: 0.1
+  image_size: [224, 224]
+  split_ratios: [0.70, 0.15, 0.15]              # unused when the splits are named
+
+model:
+  encoder_name: vit_tiny_patch16_224
+  pretrained: true                              # timm downloads once; Kaggle Internet ON
+  sequence_length: 6
+  image_update_interval: 4
+  temporal_d_model: 64
+  temporal_nhead: 4
+  temporal_num_layers: 2
+  temporal_dim_feedforward: 128
+  temporal_dropout: 0.10
+  head_hidden_dim: 128
+
+training:
+  output_dir: artifacts/runs/v03_base
+  # ~24k training windows at batch 48 is ~500 steps an epoch, about 4 minutes on a T4, so 40
+  # epochs is ~3 h worst case and early stopping usually ends it well before that.
+  epochs: 40
+  batch_size: 48
+  num_workers: 2                                # Kaggle gives ~4 vCPU; 2 is the safe choice
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  encoder_learning_rate_scale: 0.1
+  patience: 8
+  loss: smooth_l1
+  yaw_loss_weight: 1.0
+  amp: true

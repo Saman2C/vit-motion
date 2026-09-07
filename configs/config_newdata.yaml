@@ -1,0 +1,44 @@
+seed: 42
+
+# The 2026-08-19 collection, used ONLY as a held-out condition test.
+# Build its manifest with:
+#   python inspect_dataset.py --config config_newdata.yaml \
+#       --data-root <path to data/new_data/processed> \
+#       --split-override test \
+#       --normalization-from artifacts/manifest/normalization.json
+# The normalization MUST be the trained model's, otherwise the reported accuracy
+# is not comparable with any earlier number.
+data:
+  root: "/kaggle/input/vit-motion-newdata/processed"
+  manifest_dir: artifacts/manifest_newdata
+  rgb_column: rgb_path
+  rpm_to_mps_gain: 4524.0
+  sample_period_sec: 0.1
+  image_size: [224, 224]
+  split_ratios: [0.0, 0.0, 1.0]
+
+model:
+  encoder_name: vit_tiny_patch16_224
+  pretrained: false
+  sequence_length: 6
+  image_update_interval: 4
+  temporal_d_model: 64
+  temporal_nhead: 4
+  temporal_num_layers: 2
+  temporal_dim_feedforward: 128
+  temporal_dropout: 0.10
+  head_hidden_dim: 128
+
+training:
+  # Present so the shared config loader is happy; nothing is trained from this file.
+  output_dir: artifacts/runs/vit_motion_temporal_cr_v0_2_1
+  epochs: 0
+  batch_size: 48
+  num_workers: 2
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  encoder_learning_rate_scale: 0.1
+  patience: 15
+  loss: smooth_l1
+  yaw_loss_weight: 1.0
+  amp: true

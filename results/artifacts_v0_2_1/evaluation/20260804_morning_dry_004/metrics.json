@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260804_morning_dry_004",
+  "checkpoint": "artifacts/runs/vit_motion_temporal_cr_v0_2_1/best.pt",
+  "sequence_length": 6,
+  "image_update_interval": 4,
+  "samples": 473,
+  "outputs": {
+    "next_body_dx": {
+      "label": "Next body dx",
+      "unit": "m",
+      "mae": 0.009913001086265015,
+      "rmse": 0.014186400167347575,
+      "r2": 0.8568282844127513,
+      "fit_percent": 62.16196152186946
+    },
+    "next_body_dy": {
+      "label": "Next body dy",
+      "unit": "m",
+      "mae": 0.004023252107767973,
+      "rmse": 0.00566052643407844,
+      "r2": 0.15624132942350877,
+      "fit_percent": 8.143662680439324
+    },
+    "next_delta_yaw": {
+      "label": "Next delta yaw",
+      "unit": "rad",
+      "mae": 0.0034738813738571387,
+      "rmse": 0.004891710047748546,
+      "r2": 0.9279669688399075,
+      "fit_percent": 73.16102998248766
+    }
+  }
+}

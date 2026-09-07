@@ -1,0 +1,35 @@
+seed: 42
+
+data:
+  root: "\\\\192.168.111.168\\APL_Share\\002超級大空間000\\YiLin\\ViT_data_tracked Vehicle"
+  manifest_dir: artifacts/manifest
+  rgb_column: rgb_path
+  rpm_to_mps_gain: 4524.0
+  sample_period_sec: 0.1
+  image_size: [224, 224]
+  split_ratios: [0.70, 0.20, 0.10]
+
+model:
+  encoder_name: vit_tiny_patch16_224
+  pretrained: true
+  sequence_length: 6
+  image_update_interval: 1
+  temporal_d_model: 64
+  temporal_nhead: 4
+  temporal_num_layers: 2
+  temporal_dim_feedforward: 128
+  temporal_dropout: 0.10
+  head_hidden_dim: 128
+
+training:
+  output_dir: artifacts/runs/vit_motion_blueacer_v0_2_1
+  epochs: 100
+  batch_size: 4
+  num_workers: 2
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  encoder_learning_rate_scale: 0.1
+  patience: 15
+  loss: smooth_l1
+  yaw_loss_weight: 1.0
+  amp: true

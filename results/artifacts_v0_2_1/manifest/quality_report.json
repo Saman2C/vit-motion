@@ -1,0 +1,628 @@
+{
+  "data_root": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset",
+  "experiments_found": 76,
+  "experiments_usable": 76,
+  "total_rows": 37247,
+  "valid_rows": 37247,
+  "split_rows": {
+    "train": 26468,
+    "val": 5405,
+    "test": 5374
+  },
+  "split_experiments": {
+    "train": 54,
+    "test": 11,
+    "val": 11
+  },
+  "experiments": [
+    {
+      "experiment_id": "20260804_morning_dry_001",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260804_morning_dry_001/samples.csv",
+      "total_rows": 492,
+      "valid_rows": 492,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260804_morning_dry_002",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260804_morning_dry_002/samples.csv",
+      "total_rows": 489,
+      "valid_rows": 489,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260804_morning_dry_003",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260804_morning_dry_003/samples.csv",
+      "total_rows": 479,
+      "valid_rows": 479,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260804_morning_dry_004",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260804_morning_dry_004/samples.csv",
+      "total_rows": 478,
+      "valid_rows": 478,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260804_morning_dry_005",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260804_morning_dry_005/samples.csv",
+      "total_rows": 493,
+      "valid_rows": 493,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260804_morning_dry_006",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260804_morning_dry_006/samples.csv",
+      "total_rows": 486,
+      "valid_rows": 486,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260804_morning_dry_007",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260804_morning_dry_007/samples.csv",
+      "total_rows": 495,
+      "valid_rows": 495,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_001",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_001/samples.csv",
+      "total_rows": 490,
+      "valid_rows": 490,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_002",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_002/samples.csv",
+      "total_rows": 494,
+      "valid_rows": 494,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_003",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_003/samples.csv",
+      "total_rows": 480,
+      "valid_rows": 480,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_004",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_004/samples.csv",
+      "total_rows": 492,
+      "valid_rows": 492,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_005",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_005/samples.csv",
+      "total_rows": 499,
+      "valid_rows": 499,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_006",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_006/samples.csv",
+      "total_rows": 499,
+      "valid_rows": 499,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_007",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_007/samples.csv",
+      "total_rows": 491,
+      "valid_rows": 491,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_008",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_008/samples.csv",
+      "total_rows": 490,
+      "valid_rows": 490,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_009",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_009/samples.csv",
+      "total_rows": 492,
+      "valid_rows": 492,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_010",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_010/samples.csv",
+      "total_rows": 487,
+      "valid_rows": 487,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_011",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_011/samples.csv",
+      "total_rows": 491,
+      "valid_rows": 491,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_012",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_012/samples.csv",
+      "total_rows": 488,
+      "valid_rows": 488,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_013",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_013/samples.csv",
+      "total_rows": 476,
+      "valid_rows": 476,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_014",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_014/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_015",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_015/samples.csv",
+      "total_rows": 495,
+      "valid_rows": 495,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_016",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_016/samples.csv",
+      "total_rows": 482,
+      "valid_rows": 482,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_017",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_017/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_018",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_018/samples.csv",
+      "total_rows": 482,
+      "valid_rows": 482,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_019",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_019/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_020",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_020/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_021",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_021/samples.csv",
+      "total_rows": 493,
+      "valid_rows": 493,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_022",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_022/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_023",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_023/samples.csv",
+      "total_rows": 490,
+      "valid_rows": 490,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_024",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_024/samples.csv",
+      "total_rows": 495,
+      "valid_rows": 495,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_025",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_025/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_026",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_026/samples.csv",
+      "total_rows": 490,
+      "valid_rows": 490,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_027",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_027/samples.csv",
+      "total_rows": 492,
+      "valid_rows": 492,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_028",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_028/samples.csv",
+      "total_rows": 484,
+      "valid_rows": 484,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_029",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_029/samples.csv",
+      "total_rows": 495,
+      "valid_rows": 495,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_030",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_030/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_031",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_031/samples.csv",
+      "total_rows": 484,
+      "valid_rows": 484,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_032",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_032/samples.csv",
+      "total_rows": 492,
+      "valid_rows": 492,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_033",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_033/samples.csv",
+      "total_rows": 491,
+      "valid_rows": 491,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_034",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_034/samples.csv",
+      "total_rows": 491,
+      "valid_rows": 491,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_035",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_035/samples.csv",
+      "total_rows": 492,
+      "valid_rows": 492,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_036",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_036/samples.csv",
+      "total_rows": 495,
+      "valid_rows": 495,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_037",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_037/samples.csv",
+      "total_rows": 487,
+      "valid_rows": 487,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_038",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_038/samples.csv",
+      "total_rows": 484,
+      "valid_rows": 484,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_039",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_039/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_040",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_040/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_041",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_041/samples.csv",
+      "total_rows": 483,
+      "valid_rows": 483,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_042",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_042/samples.csv",
+      "total_rows": 484,
+      "valid_rows": 484,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_043",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_043/samples.csv",
+      "total_rows": 483,
+      "valid_rows": 483,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_044",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_044/samples.csv",
+      "total_rows": 482,
+      "valid_rows": 482,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_afternoon_dry_045",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_afternoon_dry_045/samples.csv",
+      "total_rows": 494,
+      "valid_rows": 494,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_001",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_001/samples.csv",
+      "total_rows": 499,
+      "valid_rows": 499,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_0010",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_0010/samples.csv",
+      "total_rows": 489,
+      "valid_rows": 489,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_002",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_002/samples.csv",
+      "total_rows": 487,
+      "valid_rows": 487,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_003",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_003/samples.csv",
+      "total_rows": 495,
+      "valid_rows": 495,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_004",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_004/samples.csv",
+      "total_rows": 489,
+      "valid_rows": 489,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_005",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_005/samples.csv",
+      "total_rows": 485,
+      "valid_rows": 485,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_006",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_006/samples.csv",
+      "total_rows": 490,
+      "valid_rows": 490,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_007",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_007/samples.csv",
+      "total_rows": 483,
+      "valid_rows": 483,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_008",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_008/samples.csv",
+      "total_rows": 493,
+      "valid_rows": 493,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_009",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_009/samples.csv",
+      "total_rows": 479,
+      "valid_rows": 479,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_010",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_010/samples.csv",
+      "total_rows": 488,
+      "valid_rows": 488,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_011",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_011/samples.csv",
+      "total_rows": 491,
+      "valid_rows": 491,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_012",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_012/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_013",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_013/samples.csv",
+      "total_rows": 490,
+      "valid_rows": 490,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_014",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_014/samples.csv",
+      "total_rows": 489,
+      "valid_rows": 489,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_015",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_015/samples.csv",
+      "total_rows": 492,
+      "valid_rows": 492,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_016",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_016/samples.csv",
+      "total_rows": 496,
+      "valid_rows": 496,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_017",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_017/samples.csv",
+      "total_rows": 489,
+      "valid_rows": 489,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_018",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_018/samples.csv",
+      "total_rows": 487,
+      "valid_rows": 487,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_019",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_019/samples.csv",
+      "total_rows": 493,
+      "valid_rows": 493,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_020",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_020/samples.csv",
+      "total_rows": 487,
+      "valid_rows": 487,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_021",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_021/samples.csv",
+      "total_rows": 486,
+      "valid_rows": 486,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_022",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_022/samples.csv",
+      "total_rows": 490,
+      "valid_rows": 490,
+      "rejection_counts": {},
+      "error": null
+    },
+    {
+      "experiment_id": "20260805_morning_dry_023",
+      "csv_path": "/kaggle/input/notebooks/samantousi/motion-vision/vit-motion-dataset/20260805_morning_dry_023/samples.csv",
+      "total_rows": 499,
+      "valid_rows": 499,
+      "rejection_counts": {},
+      "error": null
+    }
+  ],
+  "warnings": []
+}
